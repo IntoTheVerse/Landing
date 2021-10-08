@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useHistory } from "react-router-dom";
+
 import "./LoadingScreen.scss";
+
 import HelpIcon from '../../assets/icons/help_icon.svg'
 
+const loadingtime = 2500
+
+
 const LoadingScreen = () => {
+    const history = useHistory();
+
+    useEffect(() => {
+        setTimeout(() => {
+            history.push("/home");
+        }, loadingtime);
+    }, [])
     return (
         <main className="loadingScreen">
             <section className="loadingScreen__main">
