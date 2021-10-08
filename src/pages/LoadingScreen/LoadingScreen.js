@@ -1,10 +1,12 @@
 import React from 'react'
+import "./LoadingScreen.scss";
+
 
 const LoadingScreen = () => {
     return (
-        <div>
-
-        </div>
+        <main className="loadingScreen">
+            jsdlfkj
+        </main>
     )
 }
 
