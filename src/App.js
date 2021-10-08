@@ -1,12 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+
+import LoadingScreen from './pages/LoadingScreen/LoadingScreen'
+import HomeScreen from './pages/HomeScreen/HomeScreen';
+
 
 function App() {
   return (
-    <div className="App" class="p-6 items-center justify-center">
-        <h1 class="text-blue-400 font-extrabold">Hello World!</h1>
-        <p class="tracking-widest">This is my first React App.</p>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={LoadingScreen}></Route>
+        <Route exact path="/home" component={HomeScreen}></Route>
+      </Switch>
+    </Router>
   );
 }
 
