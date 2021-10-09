@@ -52,4 +52,22 @@
             }
         }
     }
+    &__bannerTitleContainer {
+        width:100vw;
+        margin-top:10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__bannerTitle {
+            h1 {
+                font-family: "Antiokhia", cursive;
+                font-size:4rem;
+                text-align: center;
+                color:#225E80;
+                &:last-child {
+                    color:white;
+                }
+            }
+        }
+    }
 }

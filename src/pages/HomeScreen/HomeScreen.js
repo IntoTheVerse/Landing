@@ -26,7 +26,13 @@ const HomeScreen = () => {
                     </section>
                 </div>
             </header>
-        </article>
+            <main className="homeScreen__bannerTitleContainer">
+                <section className="homeScreen__bannerTitleContainer__bannerTitle">
+                    <h1>A PiXEL EXPERiENCE</h1>
+                    <h1>PLAY, COLLECT and EARN</h1>
+                </section>
+            </main>
+        </article >
     )
 }
 
