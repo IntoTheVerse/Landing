@@ -22,12 +22,12 @@ const LoadingScreen = () => {
             <section className="loadingScreen__main">
                 <p>Welcome to </p>
                 <div className="loadingScreen__main__title">
-                    <h1>Dungeon<br />Hunter</h1>
+                    <h1>Dungeon<br />Hunt</h1>
                 </div>
             </section>
             <section className="loadingScreen__tips-tricks">
                 <img src={HelpIcon} alt="help_icon" />
-                <p>Earn and access defi !</p>
+                <p>Play Earn Win!</p>
             </section>
         </main>
     )

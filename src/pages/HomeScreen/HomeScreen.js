@@ -27,7 +27,7 @@ const HomeScreen = () => {
                         <img src={Logo} alt="logo" />
                         <nav className="homeScreen__header__main__nav">
                             <p>HOME</p>
-                            <p>AbOUT</p>
+                            <p>ABOUT</p>
                             <p>FEATURES</p>
                             <p>TEAMS</p>
                         </nav>
