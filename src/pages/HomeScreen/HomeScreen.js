@@ -6,6 +6,14 @@ import Logo from "../../assets/logo.svg";
 import Chain from "../../assets/chain.svg"
 
 
+//highr number cloud is closer to the center of screen
+import CloudRightOne from "../../assets/clouds/cloud_right_one.svg"
+import CloudRightTwo from "../../assets/clouds/cloud_right_two.svg"
+import CloudRightThree from "../../assets/clouds/cloud_right_three.svg"
+import CloudLeftOne from "../../assets/clouds/cloud_left_one.svg"
+import CloudLeftTwo from "../../assets/clouds/cloud_left_two.svg"
+
+
 const HomeScreen = () => {
     return (
         <article className="homeScreen">
@@ -31,6 +39,11 @@ const HomeScreen = () => {
                     <h1>A PiXEL EXPERiENCE</h1>
                     <h1>PLAY, COLLECT and EARN</h1>
                 </section>
+                <img src={CloudLeftOne} className="cloud cloud_left_one" alt="cloud_left_one" />
+                <img src={CloudLeftTwo} className="cloud cloud_left_two" alt="cloud_left_two" />
+                <img src={CloudRightOne} className="cloud cloud_right_one" alt="cloud_right_one" />
+                <img src={CloudRightTwo} className="cloud cloud_right_two" alt="cloud_right_two" />
+                <img src={CloudRightThree} className="cloud cloud_right_three" alt="cloud_right_three" />
             </main>
         </article >
     )

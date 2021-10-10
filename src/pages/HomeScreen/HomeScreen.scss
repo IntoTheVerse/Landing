@@ -12,6 +12,7 @@
     background: url("../../assets/bg_main.png");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x:hidden;
     &__header {
         width:100vw;
         &__content {
@@ -60,6 +61,7 @@
         align-items: center;
         &__bannerTitle {
             h1 {
+                z-index: 0;
                 font-family: "Antiokhia", cursive;
                 font-size:4rem;
                 text-align: center;
@@ -68,6 +70,33 @@
                     color:white;
                 }
             }
+        }
+        .cloud {
+            position: absolute;
+            z-index:100;
+        }
+        //higher the number of cloud closer to the center
+        .cloud_left_one {
+            left:0;
+            top:300px;
+        }
+        .cloud_left_two {
+            left:220px;
+            top:200px;
+        }
+        .cloud_right_one {
+            right:10px;
+            top:400px;
+        }
+        .cloud_right_two {
+            right:230px;
+            top:380px;
+            transform: scale(1.3);
+        }
+        .cloud_right_three {
+            right:390px;
+            top:200px;
+            transform:scale(1.3)
         }
     }
 }
