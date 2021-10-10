@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 
 import "./LoadingScreen.scss";
@@ -9,7 +9,7 @@ const loadingtime = 2500
 
 
 const LoadingScreen = () => {
-    const history = useHistory();
+    let history = useHistory();
 
     useEffect(() => {
         setTimeout(() => {
