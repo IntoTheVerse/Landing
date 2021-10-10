@@ -15,6 +15,7 @@ const LoadingScreen = () => {
         setTimeout(() => {
             history.push("/home");
         }, loadingtime);
+        // eslint-disable-line react-hooks/exhaustive-deps
     }, [])
     return (
         <main className="loadingScreen">
