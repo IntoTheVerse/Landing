@@ -4,6 +4,7 @@ import "./HomeScreen.scss";
 
 import Logo from "../../assets/logo.svg";
 import Chain from "../../assets/chain.svg"
+import PlayButton from "../../assets/Play_Now_Button .png"
 
 
 //highr number cloud is closer to the center of screen
@@ -44,6 +45,7 @@ const HomeScreen = () => {
                 <img src={CloudRightOne} className="cloud cloud_right_one" alt="cloud_right_one" />
                 <img src={CloudRightTwo} className="cloud cloud_right_two" alt="cloud_right_two" />
                 <img src={CloudRightThree} className="cloud cloud_right_three" alt="cloud_right_three" />
+                <img src={PlayButton} className="play play_btn_center" alt="play_button" />
             </main>
         </article >
     )
