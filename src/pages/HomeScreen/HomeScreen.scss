@@ -54,6 +54,7 @@ body {
                     line-height: 1.1px;
                     letter-spacing: 4px;
                     font-weight: 300;
+                    cursor: pointer;
                 }
             }
         }
@@ -108,6 +109,17 @@ body {
             bottom: 20px;
             position: absolute;
             transform: scale(0.8);
+            
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s all;
+        }
+        .play_btn_center:hover {
+            box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        }
+        .play_btn_center:active {
+            transform: scale(0.7);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.34);
         }
     }
 }
