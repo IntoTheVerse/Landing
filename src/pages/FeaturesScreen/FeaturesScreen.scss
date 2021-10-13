@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap');
+
+@font-face {
+    font-family:"Antiokhia";
+    src: url("../../assets/fonts/Antiokhia.otf");
+}
+body {
+    overflow:hidden;
+}
+.featuresScreeen {
+    width:100vw;
+    height:100vh;
+   // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../../assets/main_bg.svg");
+    background: url("../../assets/features/Feature_Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    &__header {
+        width:100vw;
+        &__content {
+            margin-inline: auto;
+            padding-inline: 1.5em;
+            max-width: 82rem;
+            display: flex;
+            flex-direction: column;
+        }
+        &__chainContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline:2vw;
+            img {
+                height: 30px;
+            }
+        }
+        &__main {
+            position: relative;
+            bottom:6px; //sketchy af :(
+            background: #593D35;
+            padding:1em 4em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                transform: scale(0.7)
+            }
+            &__nav {
+                display: flex;
+                color:white;
+                font-family: "Antiokhia", cursive;
+                font-size:1.5rem;
+                p{
+                    margin-left:50px;
+                    line-height: 1.1px;
+                    letter-spacing: 4px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    &__bannerTitleContainer {
+        width:100vw;
+        &__bannerTitle {
+            align-items: left;
+            width: fit-content;
+            padding:1em 4em;
+            h1 {
+                z-index: 0;
+                font-family: "Antiokhia", cursive;
+                font-size:4rem;
+                text-align: center;
+                color:#4AB3CA;
+            }
+        }
+    }
+    .option {
+        width: 480px;
+        float:left;
+        padding-top: 2.5em;
+        padding-inline: 1em;
+    }
+    .featureTitle {
+        z-index: 0;
+        font-family: 'Roboto Slab', serif;
+        font-size:1.5rem;
+        text-align: left;
+        color: #ffffff;
+    }
+    .featureText {
+        z-index: 0;
+        font-family: 'Roboto Slab', serif;
+        font-size:1rem;
+        text-align: justify;
+        color: #ffffff;
+    }
+    .highlightText {
+        font-family: "Antiokhia", cursive;
+        font-weight: 200;
+        color:#4AB3CA;
+    }
+}
