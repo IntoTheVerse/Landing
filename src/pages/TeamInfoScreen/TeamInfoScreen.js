@@ -13,24 +13,7 @@ import Arrow_Right from "../../assets/teams/Arrow_Right.png"
 
 const TeamInfoScreen = () => {
     return (
-        <article className="teaminfoScreen">
-            <header className="teaminfoScreen__header">
-                <div className="teaminfoScreen__header__content">
-                    <section className="teaminfoScreen__header__chainContainer">
-                        <img src={Chain} alt="" />
-                        <img src={Chain} alt="" />
-                    </section>
-                    <section className="teaminfoScreen__header__main">
-                        <img src={Logo} alt="logo" />
-                        <nav className="teaminfoScreen__header__main__nav">
-                            <p>HOME</p>
-                            <p>ABOUT</p>
-                            <p>FEATURES</p>
-                            <p>TEAMS</p>
-                        </nav>
-                    </section>
-                </div>
-            </header>
+        <section className="teaminfoScreen">
             <main className="teaminfoScreen__bannerTitleContainer">
                 <section className="teaminfoScreen__bannerTitleContainer__bannerTitle">
                     <h1>Meet Our Team</h1>
@@ -63,7 +46,7 @@ const TeamInfoScreen = () => {
                     </section>
                 </section>
             </main>
-        </article >
+        </section>
     )
 }
 
