@@ -14,16 +14,16 @@ import Unifty from "../../assets/features/Unifty.png"
 
 const FeaturesScreen = () => {
     return (
-        <article className="featuresScreeen">
-            <header className="featuresScreeen__header">
-                <div className="featuresScreeen__header__content">
-                    <section className="featuresScreeen__header__chainContainer">
+        <article className="featuresScreen">
+            <header className="featuresScreen__header">
+                <div className="featuresScreen__header__content">
+                    <section className="featuresScreen__header__chainContainer">
                         <img src={Chain} alt="" />
                         <img src={Chain} alt="" />
                     </section>
-                    <section className="featuresScreeen__header__main">
+                    <section className="featuresScreen__header__main">
                         <img src={Logo} alt="logo" />
-                        <nav className="featuresScreeen__header__main__nav">
+                        <nav className="featuresScreen__header__main__nav">
                             <p>HOME</p>
                             <p>ABOUT</p>
                             <p>FEATURES</p>
@@ -32,8 +32,8 @@ const FeaturesScreen = () => {
                     </section>
                 </div>
             </header>
-            <main className="featuresScreeen__bannerTitleContainer">
-                <section className="featuresScreeen__bannerTitleContainer__bannerTitle">
+            <main className="featuresScreen__bannerTitleContainer">
+                <section className="featuresScreen__bannerTitleContainer__bannerTitle">
                     <h1>Features</h1>
                 </section>
                 <section className="featuresScreen__bannerTitleContainer__featuresOpt">
