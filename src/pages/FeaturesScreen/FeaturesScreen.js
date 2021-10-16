@@ -1,12 +1,6 @@
 
 import React from 'react';
 import "./FeaturesScreen.scss";
-
-import Logo from "../../assets/logo.svg";
-import Chain from "../../assets/chain.svg"
-
-
-//highr number cloud is closer to the center of screen
 import Moola from "../../assets/features/Moola_Market.png"
 import Ubeswap from "../../assets/features/Ubeswap.png"
 import Unifty from "../../assets/features/Unifty.png"
@@ -15,23 +9,6 @@ import Unifty from "../../assets/features/Unifty.png"
 const FeaturesScreen = () => {
     return (
         <article className="featuresScreen">
-            <header className="featuresScreen__header">
-                <div className="featuresScreen__header__content">
-                    <section className="featuresScreen__header__chainContainer">
-                        <img src={Chain} alt="" />
-                        <img src={Chain} alt="" />
-                    </section>
-                    <section className="featuresScreen__header__main">
-                        <img src={Logo} alt="logo" />
-                        <nav className="featuresScreen__header__main__nav">
-                            <p>HOME</p>
-                            <p>ABOUT</p>
-                            <p>FEATURES</p>
-                            <p>TEAMS</p>
-                        </nav>
-                    </section>
-                </div>
-            </header>
             <main className="featuresScreen__bannerTitleContainer">
                 <section className="featuresScreen__bannerTitleContainer__bannerTitle">
                     <h1>Features</h1>
