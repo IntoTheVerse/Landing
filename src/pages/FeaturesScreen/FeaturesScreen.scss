@@ -33,13 +33,17 @@ body {
             }
         }
     }
+    &__featuresOpt {
+        padding: 0 4em;
+    }
     .option {
-        width: 480px;
+        width: 420px;
         float:left;
         padding-top: 2.5em;
         padding-inline: 1em;
     }
     .featureTitle {
+        padding: 0.5em 0;
         z-index: 0;
         font-family: 'Roboto Slab', serif;
         font-size:1.5rem;

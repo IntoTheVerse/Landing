@@ -13,7 +13,7 @@ const FeaturesScreen = () => {
                 <section className="featuresScreen__bannerTitleContainer__bannerTitle">
                     <h1>Features</h1>
                 </section>
-                <section className="featuresScreen__bannerTitleContainer__featuresOpt">
+                <section className="featuresScreen__featuresOpt">
                     <section className="option">
                         <img src={Moola} className="featuresImg" alt="Moola_Market" />
                         <h1 className="featureTitle">Moola Market</h1>
