@@ -14,8 +14,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        {/* <Route exact path="/" component={LoadingScreen}></Route> */}
-        <Route exact path="/" component={Landing}></Route>
+        <Route exact path="/" component={LoadingScreen}></Route>
+        <Route exact path="/home" component={Landing}></Route>
         {/* <Route exact path="/features" component={FeaturesScreen}></Route> */}
 
       </Switch>
