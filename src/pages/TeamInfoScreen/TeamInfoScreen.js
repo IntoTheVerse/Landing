@@ -1,9 +1,6 @@
 import React from 'react';
 import "./TeamInfoScreen.scss";
 
-import Logo from "../../assets/logo.svg";
-import Chain from "../../assets/chain.svg"
-
 import Diamond from "../../assets/teams/diamond.png"
 import Naquiyah from "../../assets/teams/Design/Naquiyah.png"
 import Piyush from "../../assets/teams/Design/Piyush.png"
