@@ -1,10 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 
 import "./HomeScreen.scss";
-
-import Logo from "../../assets/logo.svg";
-import Chain from "../../assets/chain.svg"
 import PlayButton from "../../assets/Play_Now_Button .png"
 
 

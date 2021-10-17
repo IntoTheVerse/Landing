@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import LoadingScreen from './pages/LoadingScreen/LoadingScreen'
 // import HomeScreen from './pages/HomeScreen/HomeScreen';
-import FeaturesScreen from './pages/FeaturesScreen/FeaturesScreen';
+//import FeaturesScreen from './pages/FeaturesScreen/FeaturesScreen';
 // import TeamInfoScreen from './pages/TeamInfoScreen/TeamInfoScreen';
 import Landing from "./pages/Landing/Landing"
 // import FeaturesScreen from './pages/FeaturesScreen/FeaturesScreen';
