@@ -48,8 +48,7 @@ const HomeScreen = () => {
                 <img src={CloudLeftTwo} className="cloud cloud_left_two" alt="cloud_left_two" />
                 <img src={CloudRightOne} className="cloud cloud_right_one" alt="cloud_right_one" />
                 <img src={CloudRightTwo} className="cloud cloud_right_two" alt="cloud_right_two" />
-                <img src={CloudRightThree} className="cloud cloud_right_three" alt="cloud_right_three" />
-                
+                <img src={CloudRightThree} className="cloud cloud_right_three" alt="cloud_right_three" />  
             </main>
         </section >
     )
