@@ -2,6 +2,7 @@
     &__header {
         width: 100vw;
         position: fixed;
+        z-index:1000;
         &__content {
             margin-inline: auto;
             padding-inline: 1.5em;

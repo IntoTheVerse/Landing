@@ -18,7 +18,7 @@ body {
     &__header {
         width: 100vw;
         position: fixed;
-        z-index:1000;
+        z-index: 1000;
         &__content {
             margin-inline: auto;
             padding-inline: 1.5em;
@@ -81,7 +81,7 @@ body {
         }
         .cloud {
             position: absolute;
-            z-index:10;
+            z-index:100;
             transform:scale(0.9);
             animation-name: floating;
             animation-duration: 3s;
@@ -123,7 +123,7 @@ body {
             bottom: 20px;
             position: absolute;
             transform: scale(0.8);
-            z-index:0;
+            
             cursor: pointer;
             outline: none;
             transition: 0.2s all;
