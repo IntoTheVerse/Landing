@@ -65,10 +65,10 @@ const TeamInfoScreen = () => {
                             <img src={Piyush} />
                         </div>
                         <div className="image"> 
-                            <img src={Ramesh} />  
+                            <img src={Shovin} />  
                         </div>
                         <div className="image"> 
-                            <img src={Shovin} />  
+                            <img src={Ramesh} />  
                         </div>
                         <div className="image">
                             <img src={Elio} />
