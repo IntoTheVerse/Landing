@@ -1,2 +1,2 @@
-### Dungeon Crawler Website
-Welcome to the home of the official website of the dungeon crawler game, a unique blend of rpg goodness and next generation crypto reward system
+### Into The Verse Website
+Welcome to the home of the official website of Into The Verse, a unique blend of RPG goodness and next generation crypto reward system.
