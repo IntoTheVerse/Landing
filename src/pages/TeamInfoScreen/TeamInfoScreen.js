@@ -1,6 +1,5 @@
 import React from 'react';
 import "./TeamInfoScreen.scss";
-import Slider from "react-slick";
 import Carousel, { autoplayPlugin, slidesToShowPlugin, arrowsPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 
