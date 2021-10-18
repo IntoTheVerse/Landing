@@ -40,7 +40,7 @@ const TeamInfoScreen = () => {
                     {
                         resolve: slidesToShowPlugin,
                         options: {
-                        numberOfSlides: 3,
+                        numberOfSlides: 4,
                         },
                     },
                     {
@@ -81,9 +81,9 @@ const TeamInfoScreen = () => {
                         <div className="image">
                             <img src={Stanley} />
                         </div>
-                        {/* <div className="image">
+                        <div className="image">
                             <img src={Rishabh} />
-                        </div> */}
+                        </div>
                         <div className="image">
                             <img src={Yash} />
                         </div>
