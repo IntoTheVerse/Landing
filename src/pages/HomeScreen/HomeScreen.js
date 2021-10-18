@@ -33,7 +33,7 @@ const HomeScreen = () => {
         }  
       };
     return (
-        <section className="homeScreen">
+        <section className="homeScreen" id="header">
             <main className="homeScreen__bannerTitleContainer">
                 <section className="homeScreen__bannerTitleContainer__bannerTitle">
                     <h1>A PiXEL EXPERiENCE</h1>

@@ -31,7 +31,7 @@ AOS.init({
 
 const FeaturesScreen = () => {
     return (
-        <article className="featuresScreen">
+        <article className="featuresScreen" id="featuresScreen">
             <main className="featuresScreen__bannerTitleContainer">
                 <section data-aos="fade-down-right" data-aos-duration="1500" className="featuresScreen__bannerTitleContainer__bannerTitle">
                     <h1>Features</h1>
