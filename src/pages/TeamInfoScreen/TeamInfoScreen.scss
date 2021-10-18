@@ -10,69 +10,54 @@ body {
 }
 .teaminfoScreen {
     width:100vw;
-    height:110vh;
+    height:100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-   // background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../../assets/main_bg.svg");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../../assets/main_bg.svg");
     background: url("../../assets/teams/Team_Background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    // overflow:hidden;
-    
-    &__bannerTitleContainer {
-        width:100vw;
-        //padding-top: 20vh;
-        &__bannerTitle {
-            align-items: left;
-            width: fit-content;
-            padding:1em 4em;
-            margin-bottom:1em;
-            h1 {
-                z-index: 0;
-                font-family: "Antiokhia", cursive;
-                font-size:4rem;
-                text-align: center;
-                color:#4AB3CA;
-            }
-        }
-        &__Slides {
-            &__Carousal {
-                &__Direction {
-                    float:left;
-                    padding-top:4.5em;
-                }
-                &__Teams {
-                    float:left;
-                    padding-top:2.5em;
-                    padding-inline:1.5em;
-                    &__Name {
-                        z-index:0;
-                        font-family:'Roboto Slab', serif;
-                        font-size:1.5rem;
-                        text-align: center;
-                        color: #4AB3CA;
-                    }
-                }
-
-                &__Banner {
-                    width:480px;
-                    margin:auto;
-                    &__diamond {
-                        float:left;
-                        padding-top: 1em;
-                        width:4rem;
-                    }
-                    &__TeamTitle {
-                        float:left;
-                        z-index:0;
-                        font-family:"Antiokhia", cursive;
-                        font-size:4rem;
-                        text-align:center;
-                        color:#4AB3CA;
-                    }
-                }
-            }
-        }
-    }
 }
+//     // overflow:hidden;
+    
+    .bannerTitleContainer {
+        width:100vw;
+        padding-top: 20vh;
+    }
+    .bannerTitle {
+        align-items: left;
+        width: fit-content;
+        padding:1em 4em;
+    }
+    h1 {
+        z-index: 0;
+        font-family: "Antiokhia", cursive;
+        font-size:4rem;
+        text-align: center;
+        color:#4AB3CA;
+    }
+    .carousel {
+        width: 80%;
+        position: relative;
+        margin: auto;
+        height: 25em;
+        vertical-align: middle;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .slider {
+        vertical-align: middle;
+        margin: auto;
+        position: relative;
+        text-align:center;
+        width:80%;
+        height: inherit;
+    }
+    .image {
+        width: 80%;
+        height: auto;
+        text-align:left;
+        display:inline-block;
+    }   
