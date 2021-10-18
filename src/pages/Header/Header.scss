@@ -41,8 +41,11 @@
                     letter-spacing: 4px;
                     font-weight: 300;
                     cursor: pointer;
-                }
+                } 
             }
         }
+    }
+    p > .active {
+        background-color: rgb(32, 16, 16);
     }
 }

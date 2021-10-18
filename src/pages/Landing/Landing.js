@@ -9,10 +9,10 @@ const Landing = () => {
     return (
         <section className="landing_Container">
             <Header />
-            <HomeScreen />
-            <FeaturesScreen />
-            <TeamInfoScreen />
-            <Footer />
+            <HomeScreen id="header" />
+            <FeaturesScreen id="featuresScreen" />
+            <TeamInfoScreen id="teamInfoScreen" />
+            <Footer id="footerScreen" />
         </section>
     )
 }

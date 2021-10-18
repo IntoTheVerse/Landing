@@ -5,6 +5,7 @@ import "./Header.scss";
 
 import Logo from "../../assets/logo.svg";
 import Chain from "../../assets/chain.svg"
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 const Header = () => {
@@ -24,10 +25,11 @@ const Header = () => {
                     <section className="homeScreen__header__main">
                         <img src={Logo} alt="logo" />
                         <nav className="homeScreen__header__main__nav">
-                            <p onClick={() => scrollTo(".header")}>HOME </p>
-                            <p onClick={() => scrollTo(".footerScreen")}>ABOUT</p>
-                            <p onClick={() => scrollTo(".featuresScreen")}>FEATURES</p>
-                            <p onClick={() => scrollTo(".teaminfoScreen")}>TEAMS</p>
+                            <p><Link className="nav-item" activeClass="active" to="header" spy={true} smooth={true} offset={0} duration={2000} delay={100}>HOME</Link></p>
+                            <p><Link className="nav-item" activeClass="active" to="featuresScreen" spy={true} smooth={true} offset={0} duration={2000} delay={100}>FEATURES</Link></p>
+                            <p><Link className="nav-item" activeClass="active" to="teamInfoScreen" spy={true} smooth={true} offset={0} duration={2000} delay={100}>TEAMS</Link></p>
+                            <p><Link className="nav-item" activeClass="active" to="footerScreen" spy={true} smooth={true} offset={0} duration={2000} delay={100}>ABOUT</Link></p>
+
                         </nav>
                     </section>
                 </div>

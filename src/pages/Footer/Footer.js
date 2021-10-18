@@ -5,10 +5,15 @@ import Top_Cloud from "../../assets/footer/top_cloud.svg"
 import Bottom_Cloud from "../../assets/footer/bottom_cloud.svg"
 import Character from "../../assets/footer/coming_soon.svg"
 import Logo from "../../assets/logo.svg"
+import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 
 const Footer = () => {
+    
     return (
-        <section className="footerScreen">
+        <section className="footerScreen" id="footerScreen">
             <section className="footerScreen__upperContainer">
                 <section className="footerScreen__upperContainer__cloudTop">
                     <img src={Top_Cloud} className="cloud" alt="top cloud" />
