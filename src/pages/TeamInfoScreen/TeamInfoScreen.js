@@ -46,7 +46,7 @@ AOS.init({
 
 const TeamInfoScreen = () => {
     return (
-        <section className="teaminfoScreen">
+        <section className="teaminfoScreen" id="teamInfoScreen">
             <main className="bannerTitleContainer">
                 <section data-aos="fade-down-right" data-aos-duration="1500" className="bannerTitle">
                     <h1>Meet Our Team</h1>
