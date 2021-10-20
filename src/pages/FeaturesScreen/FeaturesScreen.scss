@@ -34,7 +34,7 @@
         width: 380px;
         float:left;
         padding-top: 2.5em;
-        padding-inline: 1em;
+        padding-inline: 1.5em;
     }
     .featureTitle {
         padding: 0.5em 0;
@@ -55,5 +55,15 @@
         font-family: "Antiokhia", cursive;
         font-weight: 200;
         color:#4AB3CA;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .featuresScreen {
+        width:100vw;
+        height:195vh;
+        background: url("../../assets/features/Feature_Background.png");
+        background-repeat: repeat-y;
+        background-size: contain;
     }
 }
