@@ -29,6 +29,10 @@
     }
     &__featuresOpt {
         padding: 0 4em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .option {
         width: 380px;
