@@ -37,7 +37,6 @@ const Footer = () => {
     e.preventDefault();
     if (email.length < 2 || !email.includes("@")) return;
     //document.getElementById("form").submit();
-    console.log(JSON.stringify({ userEmail: email }));
     const response = await fetch(`${baseUrl}/new`, {
       method: "POST",
       body: JSON.stringify({ userEmail: email }),
