@@ -1,9 +1,9 @@
 
 import React from 'react';
 import "./FeaturesScreen.scss";
-import Moola from "../../assets/features/Moola_Market.png"
 import Ubeswap from "../../assets/features/Ubeswap.png"
-import Unifty from "../../assets/features/Unifty.png"
+import Metaverse_Map from "../../assets/features/Metaverse Map.png"
+import Dungeon_Game from "../../assets/features/Game.gif"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init({
@@ -38,25 +38,25 @@ const FeaturesScreen = () => {
                 </section>
                 <section className="featuresScreen__featuresOpt">
                     <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="option">
-                        <img src={Moola} className="featuresImg" alt="Moola_Market" />
-                        <h1 className="featureTitle">Moola Market</h1>
-                        <p className="featureText">Moola is a democratic algorithmic money market on Celo. Players will be
-                        <span className="highlightText"> able to swap game assets </span> 
-                        to Celo Native assets and earn interest on deposits.</p>
+                        <img src={ Metaverse_Map } className="featuresImg" alt="Into The Verse" />
+                        <h1 className="featureTitle">Metaverse</h1>
+                        <p className="featureText">Pixel Parallel Universe where you can connect with your friends with
+                        <span className="highlightText"> Play to Earn Games, DeFi and NFTs </span> 
+                        only on the Celo Blockchain.</p>
                     </section>
                     <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" className="option">
-                        <img src={Ubeswap} className="featuresImg" alt="Ubeswap" />
-                        <h1 className="featureTitle">Ubeswap</h1>
-                        <p className="featureText">Ubeswap is a Mobile First DEX on Celo. You can 
-                        <span className="highlightText"> earn UBE rewards </span> 
-                        on Ubeswap Pools and swap assets from Celo Dollar, Celo Euro to game token and vice versa.</p>
+                        <img src={ Dungeon_Game } className="featuresImg" alt="Dungeon Hunt Game" />
+                        <h1 className="featureTitle">Dungeon Hunt Game</h1>
+                        <p className="featureText">A complete suite of RPG game with
+                        <span className="highlightText"> story modes, weekly challenges and 1v1 battels </span> 
+                        along with the ablity to switch between the game charactes that are NFTs.</p>
                     </section>
                     <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="4000" className="option">
-                        <img src={Unifty} className="featuresImg" alt="Unifty" />
-                        <h1 className="featureTitle">Unifty</h1>
-                        <p className="featureText">With Unifty, you can 
-                        <span className="highlightText"> Mint, buy, sell, swap, and create game assets </span> 
-                        as NFTs and NFT farms with just a few clicks, while you are fully owning your contracts.</p>
+                        <img src={ Ubeswap } className="featuresImg" alt="Ubeswap" />
+                        <h1 className="featureTitle">DeFi</h1>
+                        <p className="featureText">Into The Verse provides you the opportunity to interact with DeFi protocols like
+                        <span className="highlightText"> Ubeswap, Moola Market and NFT Marketplace </span> 
+                        in a gamified experience</p>
                     </section>
                 </section>
             </main>
