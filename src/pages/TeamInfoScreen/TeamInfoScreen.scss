@@ -1,63 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap");
 
 @font-face {
-    font-family:"Antiokhia";
-    src: url("../../assets/fonts/Antiokhia.otf");
+  font-family: "Antiokhia";
+  src: url("../../assets/fonts/Antiokhia.otf");
 }
 body {
-    overflow-x:hidden;
+  overflow-x: hidden;
 }
 .teaminfoScreen {
-    width:100vw;
-    height:100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../../assets/main_bg.svg");
-    background: url("../../assets/teams/Team_Background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+    url("../../assets/main_bg.svg");
+  background: url("../../assets/teams/Team_Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 //     // overflow:hidden;
-    
-    .bannerTitleContainer {
-        width:100vw;
-        padding-top: 20vh;
-    }
-    .bannerTitle {
-        align-items: left;
-        width: fit-content;
-        padding:1em 4em;
-    }
-    h1 {
-        z-index: 0;
-        font-family: "Antiokhia", cursive;
-        font-size:4rem;
-        text-align: center;
-        color:#4AB3CA;
-    }
-    .carousel {
-        width: 80%;
-        position: relative;
-        margin: auto;
-        height: 25em;
-        vertical-align: middle;
-        justify-content: center;
-        align-content: center;
-    }
 
-    .slider {
-        vertical-align: middle;
-        margin: auto;
-        position: relative;
-        text-align:center;
-        width:80%;
-        height: inherit;
+.bannerTitleContainer {
+  width: 100vw;
+  padding-top: 20vh;
+}
+.bannerTitle {
+  align-items: left;
+  width: fit-content;
+  padding: 1em 4em;
+}
+h1 {
+  z-index: 0;
+  font-family: "Antiokhia", cursive;
+  font-size: 4rem;
+  text-align: center;
+  color: #4ab3ca;
+}
+.carousel {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  height: 25rem;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+}
+
+.slider {
+  vertical-align: middle;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  height: inherit;
+}
+.image {
+  width: 80%;
+  height: auto;
+  text-align: left;
+  display: inline-block;
+}
+@media screen and (max-width: 1000px) {
+  .carousel {
+    width: 95%;
+    margin-top: 50px;
+  }
+  .image {
+    width: 100px;
+    margin-left: 5px;
+    img {
+    //   margin-left: 10px;
+      width: 90px;
+      height: auto;
+      text-align: left;
+      display: inline-block;
     }
-    .image {
-        width: 80%;
-        height: auto;
-        text-align:left;
-        display:inline-block;
-    }   
+  }
+}

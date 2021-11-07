@@ -46,79 +46,114 @@ AOS.init({
 
 const TeamInfoScreen = () => {
     return (
-        <section className="teaminfoScreen" id="teamInfoScreen">
-            <main className="bannerTitleContainer">
-                <section data-aos="fade-down-right" data-aos-duration="1500" className="bannerTitle">
-                    <h1>Meet Our Team</h1>
-                </section>
-                <div data-aos="flip-left" data-aos-easing="ease-out-linear" className="carousel">
-                <Carousel
-                    plugins={[
-                        'infinite',
-                    {
-                        resolve: autoplayPlugin,
-                        options: {
-                        interval: 1500,
-                        }
-                    },
-                    {
-                        resolve: slidesToShowPlugin,
-                        options: {
-                        numberOfSlides: 4,
-                        },
-                    },
-                    {
-                        resolve: arrowsPlugin,
-                        options: {
-                          arrowLeft: <button><img src={Arrow_Left} /></button>,
-                          arrowLeftDisabled:<button><img src={Arrow_Left} /></button>,
-                          arrowRight: <button><img src={Arrow_Right} /></button>,
-                          arrowRightDisabled: <button><img src={Arrow_Right} /></button>,
-                          addArrowClickHandler: true,
-                        }
-                      }
-
-                    ]}   
-                    animationSpeed={3000}
-                >
-                        <div className="image">
-                            <img src={Naquiyah} />
-                        </div>
-                        <div className="image">
-                            <img src={Piyush} />
-                        </div>
-                        <div className="image"> 
-                            <img src={Shovin} />  
-                        </div>
-                        <div className="image"> 
-                            <img src={Ramesh} />  
-                        </div>
-                        <div className="image">
-                            <img src={Elio} />
-                        </div>
-                        <div className="image">
-                            <img src={Gokul} />
-                        </div>
-                        <div className="image">
-                            <img src={Sagar} />
-                        </div>
-                        <div className="image">
-                            <img src={Stanley} />
-                        </div>
-                        <div className="image">
-                            <img src={Rishabh} />
-                        </div>
-                        <div className="image">
-                            <img src={Yash} />
-                        </div>
-                        <div className="image">
-                            <img src={Mitesh} />
-                        </div>
-                    </Carousel>
-                </div>
-            </main>
-        </section>
-    )
+      <section className="teaminfoScreen" id="teamInfoScreen">
+        <main className="bannerTitleContainer">
+          <section
+            data-aos="fade-down-right"
+            data-aos-duration="1500"
+            className="bannerTitle"
+          >
+            <h1>Meet Our Team</h1>
+          </section>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-linear"
+            className="carousel"
+          >
+            <Carousel
+              plugins={[
+                "infinite",
+                {
+                  resolve: autoplayPlugin,
+                  options: {
+                    interval: 1500,
+                  },
+                },
+                {
+                  resolve: slidesToShowPlugin,
+                  options: {
+                    numberOfSlides: 4,
+                  },
+                },
+                {
+                  resolve: arrowsPlugin,
+                  options: {
+                    arrowLeft: (
+                      <button>
+                        <img
+                          className="h-20 md:h-28 lg:h-36"
+                          src={Arrow_Left}
+                        />
+                      </button>
+                    ),
+                    arrowLeftDisabled: (
+                      <button>
+                        <img
+                          className="h-20 md:h-28 lg:h-36"
+                          src={Arrow_Left}
+                        />
+                      </button>
+                    ),
+                    arrowRight: (
+                      <button>
+                        <img
+                          className="h-20 md:h-28 lg:h-36"
+                          src={Arrow_Right}
+                        />
+                      </button>
+                    ),
+                    arrowRightDisabled: (
+                      <button>
+                        <img
+                          className="h-20 md:h-28 lg:h-36"
+                          src={Arrow_Right}
+                        />
+                      </button>
+                    ),
+                    addArrowClickHandler: true,
+                  },
+                },
+              ]}
+              animationSpeed={3000}
+            >
+              <div className="image">
+                <img src={Naquiyah} />
+              </div>
+              <div className="image">
+                <img src={Piyush} />
+              </div>
+              <div className="image">
+                <img src={Shovin} />
+              </div>
+              <div className="image">
+                <img src={Ramesh} />
+              </div>
+              <div className="image">
+                <img src={Elio} />
+              </div>
+              <div className="image">
+                <img src={Gokul} />
+              </div>
+              <div className="image">
+                <img src={Sagar} />
+              </div>
+              <div className="image">
+                <img src={Stanley} />
+              </div>
+              <div className="image">
+                <img src={Rishabh} />
+              </div>
+              <div className="image">
+                <img src={Yash} />
+              </div>
+              <div className="image">
+                <img src={Mitesh} />
+              </div>
+            </Carousel>
+          </div>
+        </main>
+      </section>
+    );
 }
 
 export default TeamInfoScreen

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Footer.scss";
 
 import Top_Cloud from "../../assets/footer/top_cloud.svg";
-import Bottom_Cloud from "../../assets/footer/bottom_cloud.svg";
+import Bottom_Cloud from "../../assets/footer/bottom_cloud.png";
 import Character from "../../assets/footer/coming_soon.svg";
 import Logo from "../../assets/logo.svg";
 import { GitHub, Twitter } from "@material-ui/icons";
@@ -105,11 +105,11 @@ const Footer = () => {
         </section>
       </section>
       <section className="footerScreen__bottomContainer">
-        <img
-          src={Bottom_Cloud}
-          className="footerScreen__bottomContainer__cloud"
-          alt="bottom cloud"
-        />
+          <img
+            src={Bottom_Cloud}
+            className="footerScreen__bottomContainer__cloud"
+            alt="bottom cloud"
+          />
         <section className="footerScreen__bottomContainer__companyInfo">
           <img
             src={Logo}
