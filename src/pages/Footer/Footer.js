@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Footer.scss";
 
-import Top_Cloud from "../../assets/footer/top_cloud.svg";
+import Top_Cloud from "../../assets/footer/top_cloud.png";
 import Bottom_Cloud from "../../assets/footer/bottom_cloud.png";
 import Character from "../../assets/footer/coming_soon.svg";
 import Logo from "../../assets/logo.svg";
+import IconButton from "@material-ui/core/IconButton";
 import { GitHub, Twitter } from "@material-ui/icons";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -14,8 +15,16 @@ import Swal from "sweetalert2";
 
 const Footer = () => {
 
-const [email, setEmail] = useState("");
- 
+  const [email, setEmail] = useState("");
+  const card = document.querySelector('.card'),
+      input = document.querySelector('.input'),
+      line2 = document.querySelector('.line2');
+  const styles = theme => ({
+    largeIcon: {
+      width: 100,
+      height: 100,
+    }
+  });
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     if (email.length < 2 || !email.includes("@")) return;
@@ -26,6 +35,13 @@ const [email, setEmail] = useState("");
       headers: { "Content-Type": "application/json" },
     });
     setEmail("");
+    input.blur();
+    card.classList.add('saving');
+    line2.addEventListener('animationend', function(e) {
+      setTimeout(() => {
+        card.classList.add('done');
+      }, 1000);
+    });
     Swal.fire({
       icon: "success",
       title: "Welcome to the Hunt !",
@@ -74,13 +90,13 @@ const [email, setEmail] = useState("");
             </form>
           </div>
           <div className="footerScreen__upperContainer__subscribeContainer__contact">
-            <a href="https://twitter.com/DungeonHunt_">
-              <Twitter className="footerScreen__upperContainer__subscribeContainer__contact__socialIcons" />
-            </a>
+            <IconButton>
+              <a href="https://twitter.com/DungeonHunt_"> <Twitter fontSize="large" /> </a>
+            </IconButton>
             <br />
-            <a href="https://github.com/Into-The-Verse">
-              <GitHub className="footerScreen__upperContainer__subscribeContainer__contact__socialIcons" />
-            </a>
+            <IconButton>
+              <a href="https://github.com/Into-The-Verse"> <GitHub fontSize="large" /> </a>
+            </IconButton>
           </div>
         </section>
         <section className="footerScreen__upperContainer__characterContainer">
