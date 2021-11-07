@@ -13,7 +13,7 @@
   overflow-y: hidden;
 
   &__upperContainer {
-    height: 75vh;
+    height: 70vh;
     background: url("../../assets/footer/Footer_Background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,12 +67,12 @@
       }
       .line2 {
         height: 52px;
-        left: 150px;
+        left: 125px;
         opacity: 0;
         position: absolute;
         stroke-dasharray: 6 48;
         stroke-dashoffset: -42;
-        top: 158px;
+        top: 132px;
         transform-origin: 50%;
         width: 50px;
       }
@@ -142,10 +142,6 @@
       &__contact {
         float: right;
         padding-right: 5em;
-        &__socialIcons {
-          padding: 1em;
-          transform: scale(1.8);
-        }
       }
     }
 
