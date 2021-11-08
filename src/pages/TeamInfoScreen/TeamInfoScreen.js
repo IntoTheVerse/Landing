@@ -11,7 +11,6 @@ import Ramesh from "../../assets/teams/Design/7.png"
 import Rishabh from "../../assets/teams/Design/6.png"
 import Sagar from "../../assets/teams/Design/9.png"
 import Stanley from "../../assets/teams/Design/8.png"
-import Yash from "../../assets/teams/Design/10.png"
 import Mitesh from "../../assets/teams/Design/11.png"
 
 
@@ -142,9 +141,6 @@ const TeamInfoScreen = () => {
               </div>
               <div className="image">
                 <img src={Rishabh} />
-              </div>
-              <div className="image">
-                <img src={Yash} />
               </div>
               <div className="image">
                 <img src={Mitesh} />
