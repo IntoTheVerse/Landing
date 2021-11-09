@@ -1,8 +1,5 @@
 import React from "react";
 import "./RoadmapScreen.scss";
-import Moola from "../../assets/features/Moola_Market.png";
-import Ubeswap from "../../assets/features/Ubeswap.png";
-import Unifty from "../../assets/features/Unifty.png";
 import AOS from "aos";
 import { Timeline, TimelineEvent } from "@mailtop/horizontal-timeline";
 import {
