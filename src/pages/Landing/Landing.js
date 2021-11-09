@@ -4,6 +4,7 @@ import FeaturesScreen from '../FeaturesScreen/FeaturesScreen';
 import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
 
 const Landing = () => {
     return (
@@ -11,6 +12,7 @@ const Landing = () => {
             <Header />
             <HomeScreen id="header" />
             <FeaturesScreen id="featuresScreen" />
+            <RoadmapScreen id="roadmapScreen"/>
             <TeamInfoScreen id="teamInfoScreen" />
             <Footer id="footerScreen" />
         </section>

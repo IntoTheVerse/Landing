@@ -180,11 +180,14 @@
     &__cloud {
       position: absolute;
       z-index: 1001;
-      transform: scale(0.5);
+      // transform: scale(0.5);
       animation-name: floating;
       animation-duration: 3s;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
+      height: 270px;
+      width: 100vw;
+      bottom: -120px;
     }
     &__companyInfo {
       position: absolute;

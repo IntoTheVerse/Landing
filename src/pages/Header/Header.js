@@ -47,6 +47,19 @@ import { Link, animateScroll as scroll } from "react-scroll";
             </div>
             <div className="menu_items">
               <Link
+                to="roadmapScreen"
+                spy={true}
+                smooth={true}
+                offset={0}
+                onClick={() => setHActive(!hActive)}
+                duration={2000}
+                delay={100}
+              >
+                ROADMAP
+              </Link>
+            </div>
+            <div className="menu_items">
+              <Link
                 to="teamInfoScreen"
                 spy={true}
                 smooth={true}
@@ -121,6 +134,20 @@ const Header = () => {
                     delay={100}
                   >
                     FEATURES
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    className="nav-item"
+                    activeClass="active"
+                    to="roadmapScreen"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={2000}
+                    delay={100}
+                  >
+                    ROADMAP
                   </Link>
                 </p>
                 <p>
