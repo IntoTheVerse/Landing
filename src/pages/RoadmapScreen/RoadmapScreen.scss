@@ -37,7 +37,7 @@
   }
 }
 
-.Timeline-wrapper-1 {
+.Timeline-wrapper-1, .jss1 {
   height: 500px !important;
   font-family: "Antiokhia", cursive;
 }
@@ -52,11 +52,11 @@
   //     .Timeline-wrapper-1{
   //         transform: scale(0.3);
   // }
-  .Timeline-container-2 {
+  .Timeline-container-2, .jss2 {
     display: flex;
     flex-direction: column;
   }
-  .Timeline-wrapper-1 {
+  .Timeline-wrapper-1, .jss1 {
   height: 1500px !important;
   font-family: "Antiokhia", cursive;
 }
@@ -69,11 +69,11 @@
     background-repeat: repeat-y;
     background-size: contain;
   }
-  .Timeline-container-2 {
-    display: flex;
-    flex-direction: column;
+  .Timeline-container-2, .jss2 {
+    display: flex !important;
+    flex-direction: column !important;
   }
-  .Timeline-wrapper-1 {
+  .Timeline-wrapper-1, .jss1 {
   height: 1500px !important;
   font-family: "Antiokhia", cursive;
 }
