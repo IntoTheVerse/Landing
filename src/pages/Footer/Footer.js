@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
           <div className="footerScreen__upperContainer__subscribeContainer__contact">
             <IconButton>
-              <a href="https://twitter.com/DungeonHunt_"> <Twitter fontSize="large" /> </a>
+              <a href="https://twitter.com/IntoTheVerse_"> <Twitter fontSize="large" /> </a>
             </IconButton>
             <br />
             <IconButton>
