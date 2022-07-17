@@ -14,7 +14,7 @@ function Validation(){
 
 $(document).ready(function(){
   // Specify the deadline date
-  const deadlineDate = new Date('July 17, 2022 23:59:59').getTime();
+  const deadlineDate = new Date('July 20, 2022 23:59:59').getTime();
 
   // Cache all countdown boxes into consts
   const countdownDays = document.querySelector('.countdown__days .number');
